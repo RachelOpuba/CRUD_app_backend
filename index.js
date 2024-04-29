@@ -1,7 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const PORT = process.env.PORT || 5000
+
 const app = express();
+const PORT = process.env.PORT || 5000
 const Product = require("./models/product.models");
 
 app.use(express.json());
